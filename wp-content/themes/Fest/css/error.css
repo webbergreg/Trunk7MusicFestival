@@ -1,0 +1,44 @@
+body {
+	background: #000;
+	color: #aaa;
+	font-family: Arial, Verdana, sans-serif; /* ToDo */
+	font-size: 13px;
+	font-weight: 400;
+	padding: 0 20px;
+	text-align: center;
+}
+a {
+	color: #e89e44;
+	outline: none!important;
+	text-decoration: none;
+}
+a:active,
+a:focus,
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+h1 {
+	color: #e89e44;
+	font-family: 'Exo', sans-serif;
+	font-size: 42px;
+	font-weight: 500;
+	margin: 50px 0 0 0;
+}
+a.cssLogo {
+	background: transparent url('../images/style1/logo.png') no-repeat 0 0;
+	display: block;
+	height: 88px;
+	margin: 30px auto 0 auto;
+	width: 392px;
+	text-indent: -9999px;
+}
+p {
+	margin: 10px 0 24px 0;
+}
+p.errorinfo {
+	background: transparent url('../images/separator_bg.png') repeat-x 0 top;
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px 0;
+}

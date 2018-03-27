@@ -1,0 +1,364 @@
+/**
+ *
+ * -------------------------------------------
+ * Tablet CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 10. Tablet code
+ *
+ *
+------------------------------------ */
+ 
+/* 10.1. Base elements
+==================================== */ 
+
+.gk-page-wrap {
+	padding-left: 20px!important;
+	padding-right: 20px!important;
+}
+
+#gk-mainbody-columns {
+	display: block;
+}
+
+#gk-mainbody-columns > section,
+#gk-mainbody-columns > aside {
+	display: block;
+	overflow: hidden;
+	width: 100%!important;
+}
+
+#gk-mainbody-columns > section, 
+#gk-mainbody-columns > aside {
+	width: 100% !important;
+}
+#gk-sidebar {
+	padding: 16px 0 0 0!important;
+}
+#gk-sidebar .box {
+	float: left;
+	margin-top: 0!important;
+	margin-bottom: 12px!important;
+	width: 50%;
+}
+#gk-sidebar .box:nth-child(2n+1) {
+	clear: both!important;
+}
+#gk-sidebar .box:nth-child(odd) {
+	padding-right: 10px!important;	
+}
+#gk-sidebar .box:nth-child(even) {
+	padding-left: 10px!important;
+}
+
+/* Archive page */
+.archivepage .widget {
+	padding-bottom: 30px!important;
+	width: 100%!important;
+}
+
+/* images fix */
+#gk-mainbody img {
+	height: auto!important;
+	max-width: 100%!important;
+}
+
+/* column rules */
+.widget-area .col1 { width: 100%; }
+.widget-area .col2 { width: 50%; }
+.widget-area .col3 { width: 33.3%; }
+.widget-area .col4 { width: 50%; }
+.widget-area .col5 { width: 33.3%; }
+.widget-area .col6 { width: 33.3%; }
+
+.widget-area .box.last1 { width: 100%; }
+.widget-area .box.last2 { width: 50%; }
+.widget-area .box.last3 { width: 33.3%; }
+.widget-area .box.last4 { width: 50%; }
+.widget-area .box.last5 { width: 33.3%; }
+
+.widget-area .nth1 {
+	clear: both;
+}
+
+.widget-area .col6.last5.nth4,
+.widget-area .col6.last5.nth5 {
+	width: 50%;
+}
+
+.gk-columns > div {
+	padding: 0 6px;
+}
+
+#gk-footer {
+	text-align: center;
+}
+
+#gk-footer > *,
+#gk-footer .gk-framework-logo,
+#gk-footer #gk-style-area,
+#gk-footer #footer-menu,
+#gk-footer .gk-copyrights {
+	clear: both!important;
+	display: block!important;
+	float: none!important;
+	margin-left: auto!important;
+	margin-right: auto!important;
+	text-align: center;
+}
+
+#gk-footer #footer-menu li {
+	display: inline-block;
+	float: none;
+}
+
+/* 10.2. Main menu elements
+==================================== */ 
+
+#main-menu-mobile {
+	background: transparent url('../images/tablet_menu_btn.png') no-repeat 16px center;
+	float: right;
+	left: 0;
+	margin-top: -3px;
+	position: relative;
+}
+#main-menu {
+	border: none!important;
+	clear: none!important;
+	display: none!important;
+	float: left;
+	text-indent: 15px;
+	width: 64px!important;
+}
+#main-menu-mobile select {
+	width: 64px;
+	height: 45px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 15px;
+}
+#main-menu-mobile {
+	display: block!important;
+	float: left;
+	font-size: 18px;
+	height: 52px;
+	line-height: 44px;
+	position: relative;
+	width: 50px;
+	text-indent: -9999px;
+	top: 3px;
+}
+
+
+/* 10.3. Custom elements
+==================================== */ 
+
+/* Header */
+.gk-animation h2 {
+	font-size: 32px!important;
+	line-height: 36px!important;
+}
+
+.gk-animation h1 {
+	font-size: 52px!important;
+	line-height: 58px!important;
+}
+
+.gk-jscounter > div > strong {
+	font-size: 40px!important;
+	line-height: 46px!important;
+}
+
+.gk-jscounter > div > small {
+	font-size: 21px!important;
+	line-height: 21px!important;
+}
+
+.gk-jscounter > div {
+	min-width: 83px!important;
+	padding: 0 5px!important;
+}
+
+.gk-jscounter > div::before {
+	content: ":";
+	font-size: 20px!important;
+}
+
+body .gk-animation .gk-ticket strong {
+	font-size: 18px!important;
+	font-weight: 700!important;
+	height: 35px;
+	line-height: 38px;
+	margin: 10px 0 10px 14px;
+	padding: 0 12px;
+}
+
+body .gk-animation .gk-ticket small {
+	font-size: 12px;
+	line-height: 15px;
+	max-width: 180px;
+	padding: 12px 10px!important;
+	text-align: center;
+}
+
+body .gk-animation .gk-ticket {
+	height: 56px;
+	width: 420px;
+}
+
+body .gka-bg {
+	background-position: center center!important;
+	height: 440px!important;
+	max-width: 100%;
+}
+
+.gk-animation.displayed .gk-animation-wrap {
+	height: 445px!important;
+}
+
+/* Speakers */
+.widget_gk_speakers .gkw-speakers-small-left,
+.widget_gk_speakers .gkw-speakers-small-right {
+	position: relative!important;
+	top: 0!important;
+}
+
+.widget_gk_speakers .gkw-speakers-small-right {
+	float: right;
+}
+
+/* Sponsors */
+.gk-sponsors h2 {
+	font-size: 75px!important;
+	line-height: 90px!important
+}
+
+.gk-sponsors {
+	padding: 0 20px;
+}
+
+/* Breadcrumb */
+body #gk-breadcrumbs {
+	margin-left: -20px!important;
+	margin-right: -20px!important;
+}
+
+/* Bottom */
+#gk-bottom-wrap {
+	padding-left: 20px!important;
+	padding-right: 20px!important;
+}
+
+/* Event pages */
+.speakers-page header h1,
+.page-event header h1 {
+	font-size: 64px!important;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.speakers-page .gk-speaker {
+	width: 50%;
+}
+
+.speakers-page .speakers-page-desc {
+	font-size: 15px;
+}
+
+.gk-schedule dd > div > div {
+	clear: both;
+	margin-top: 20px;
+}
+
+.gk-schedule dd > div > div:first-child {
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 32px!important;
+	line-height: 40px!important;
+}
+
+h2 {
+	font-size: 32px!important;
+	line-height: 40px!important;
+}
+
+/* Logo */
+.cssLogo {
+	background-size: 100% auto!important; 
+	background-position: center center!important;
+	max-width: 300px;
+}
+
+
+/* 10.4. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: block!important;
+}
+
+.onlySmartphones {
+	display: none!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}
+
+/* 10.5. Responsive tables
+==================================== */
+
+@media (max-width: 600px) {
+	article section table {
+		border: 1px solid #eee;
+		border-bottom: none;
+		max-width: 100%!important;
+		width: 100%!important;
+	}
+	
+	article section table thead {
+		display: none;
+	}
+	
+	article section table td {
+		border-top: 1px solid #eee;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		clear: both;
+		display: block;
+		float: right;
+		padding: 5px 0 5px 50%;
+		position: relative;
+		width: 100%;
+	}
+	
+	article section table td:first-child {
+		border-top: none;
+	}
+	
+	article section table tbody tr {
+		border-bottom: 2px solid #eee;
+	}
+	
+	article section table td span.gk-table-label {
+		display: block;
+		font-size: 95%;
+		font-weight: bold;
+		left: 5px;
+		position: absolute;
+	}
+}

@@ -1,0 +1,562 @@
+/**
+ *
+ * -------------------------------------------
+ * Shortcodes - typography elements - CSS file
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 6. Shortcodes
+ *
+ *
+------------------------------------ */
+
+/* 6.1. Typography elements
+==================================== */
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+	font-weight: 400;
+	margin: 1em 0;
+}
+
+.gk-warning,
+.gk-notice,
+.gk-info,
+.gk-error,
+.gk-thanks { /* Common rules for all these types */
+	background-color: #fffef4;
+	border: 1px solid #eae8cc;
+	color: #555;
+	margin-bottom: 18px;
+	padding: 8px 35px 8px 14px;
+}
+
+/* Notices */
+.gk-notice {
+	background-color: #1078b9;
+	border-color: #329adb;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Infos */
+.gk-info {
+	background-color: rgba(255, 255, 255, 0.65);
+	border-color: #fff;
+	color: #555;
+}
+
+/* Errors */
+.gk-error {
+	background-color: #e89e44;
+	border-color: #fabf66;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Labels & badges */
+.gk-badge,
+.gk-label,
+.gk-badge[data-style="style1"],
+.gk-label[data-style="style1"] {
+	background-color: #fff;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	color: #555;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 14px;
+	padding: 1px 4px 2px;
+	vertical-align: baseline;
+	white-space: nowrap;
+}
+
+.gk-badge,
+.gk-badge[data-style="style1"] {
+	-webkit-border-radius: 9px;
+	   -moz-border-radius: 9px;
+	        border-radius: 9px;
+	padding: 1px 9px 2px;
+}
+
+.gk-badge[data-style="style2"],
+.gk-label[data-style="style2"] {
+	background: #1078b9;
+	color: #fff;
+}
+
+.gk-badge[data-style="style3"],
+.gk-label[data-style="style3"] {
+	background: #e89e44;
+	color: #fff;
+}
+
+.gk-badge[data-style="style4"],
+.gk-label[data-style="style4"] {
+	background: rgba(255, 255, 255, 0.65);
+	color: #555;
+}
+
+.gk-badge[data-style="style5"],
+.gk-label[data-style="style5"] {
+	background: #fffea4;
+	color: #555;
+}
+
+.gk-badge[data-style="style6"],
+.gk-label[data-style="style6"] {
+	background: #222;
+	color: #fff;
+}
+
+/* Code listings */
+pre.gk-code {
+	background: rgba(255, 255, 255, 0.65);
+	border: 1px solid #eee;
+	color: #666;
+	display: block;
+	font-size: 12px;
+	padding: 10px 20px;
+}
+
+pre.gk-code[data-style="style2"] {
+	border: none;
+	border-left: 4px solid #1078b9;
+}
+
+pre.gk-code[data-style="style3"] {
+	border: none;
+	border-bottom: 4px solid #1078b9;
+	border-top: 4px solid #1078b9;
+}
+
+/* Text blocks */
+.gk-textblock {
+	background: transparent;
+	margin: 10px 0;
+	padding: 10px 16px;
+}
+
+.gk-textblock[data-style="style1"] {
+	border: 2px dashed #e89e44;
+}
+
+.gk-textblock[data-style="style2"] {
+	border: 2px dashed #1078b9;
+}
+
+.gk-textblock[data-style="style3"] {
+	background: rgba(255, 255, 255, 0.65);
+	border: 1px solid #eee;
+}
+
+.gk-textblock[data-style="style4"] {
+	border: 2px solid #e89e44;
+}
+
+.gk-textblock[data-style="style5"] {
+	border: 2px solid #1078b9;
+}
+
+.gk-textblock[data-style="style6"] {
+	background: #fffef4;
+	border: 1px solid #eae8cc;
+}
+
+.gk-textblock[data-style="style7"] {
+	background: #e89e44;
+	color: #fff;
+}
+
+.gk-textblock[data-style="style8"] {
+	background: #1078b9;
+	color: #fff;
+}
+
+.gk-textblock[data-style="style9"] {
+	background: #fff;
+}
+
+.gk-numblock {
+	clear: both;
+	margin: 10px 0;
+}
+
+.gk-numblock span,
+.gk-numblock[data-style="style1"] span {
+	color: #2f3336;
+	display: block;
+	float: left;
+	font-size: 38px;
+	font-weight: 600;
+	height: 48px;
+	line-height: 32px;
+	margin: 10px 10px 0 0;
+	text-align: center;
+	width: 48px;
+}
+
+.gk-numblock[data-style="style2"] span {
+	color: #e89e44;
+}
+
+.gk-numblock[data-style="style3"] span {
+	color: #1078b9;
+}
+
+.gk-floated {
+	color: #E89E44;
+	font-size: 125%;
+	font-style: italic;
+	text-shadow: 1px 1px 0 white;
+}
+
+.gk-floated[data-align="left"] {
+	float: left;
+	max-width: 35%;
+	padding: 10px 20px 10px 0;
+}
+
+.gk-floated[data-align="right"] {
+	float: right;
+	max-width: 35%;
+	padding: 10px 0 10px 20px;
+}
+
+.gk-floated[data-align="center"] {
+	float: none;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+
+/* Blockquote */
+blockquote.gk-quote {
+	border-left: 4px solid #fff;
+	margin: 10px 0;
+	overflow: hidden;
+	padding: 0 0 0 20px;
+}
+
+blockquote.gk-quote p {
+	margin: 0 0 10px 0;
+}
+
+blockquote.gk-quote cite {
+	color: #aaa;
+	float: right;
+	font-size: 11px;
+	font-style: italic;
+}
+
+blockquote.gk-quote[data-style="style2"] {
+	border-left-color: #1078b9;
+}
+
+blockquote.gk-quote[data-style="style3"] {
+	border-left-color: #e89e44;
+}
+
+blockquote.gk-quote[data-style="style4"] {
+	border-left-color: #999;
+}
+
+blockquote.gk-quote[data-style="style5"] {
+	border-left-color: #222;
+}
+
+/* Lists */
+article ul,
+article ol {
+	list-style-type: none;
+	margin: 10px 0;
+}
+
+article ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+	margin-left: 10px;
+}
+
+article ul li,
+article ol li {
+	line-height: 25px;
+	padding-left: 25px;
+	position: relative;
+}
+
+article ol li {
+	padding-left: 0;
+}
+
+article li ol li,
+article li ul li {
+     padding-left: 20px!important;
+}
+
+article ul li:before {
+	background: #e89e44;
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+	        border-radius: 50%;
+	content: "";
+	display: block;
+	float: left;
+	height: 6px;
+	left: 8px;
+	position: absolute;
+	top: 9px;
+	width: 6px;
+}
+
+article ol[data-style="style2"] {
+	list-style-type: lower-alpha;
+}
+
+article ol[data-style="style3"] {
+	list-style-type: decimal-leading-zero;
+}
+
+article ol[data-style="style4"] {
+	list-style-type: upper-roman;
+}
+
+article ul[data-style="style2"] li:before {
+	background: #1078b9!important;
+}
+
+article ul[data-style="style3"] li:before {
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+	        border-radius: 0;
+}
+
+article ul[data-style="style4"] li:before {
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+	        border-radius: 0;
+	background: #1078b9;
+}
+
+article ul[data-style="style5"] li:before,
+article ul[data-style="style6"] li:before,
+article ul[data-style="style7"] li:before,
+article ul[data-style="style8"] li:before {
+	display: none;
+}
+
+article ul[data-style="style5"] li {
+	background: transparent url('../images/style1/typography/bullet1.png') no-repeat 0 3px;
+}
+
+
+article ul[data-style="style6"] li {
+	background: transparent url('../images/style1/typography/bullet2.png') no-repeat 0 3px;
+}
+
+
+article ul[data-style="style7"] li {
+	background: transparent url('../images/style1/typography/bullet3.png') no-repeat 0 3px;
+}
+
+
+article ul[data-style="style8"] li {
+	background: transparent url('../images/style1/typography/bullet4.png') no-repeat 0 3px;
+}
+
+/* buttons */
+a.gk-button:active,
+a.gk-button:focus,
+a.gk-button:hover {
+	color: #fff!important;
+}
+.gk-button[data-style="style2"],
+.gk-button[data-style="style3"],
+.gk-button[data-style="style4"],
+.gk-button[data-style="style5"],
+.gk-button[data-style="style6"] {
+	color: #fff;
+}
+
+.gk-button[data-style="style2"] {
+	background-color: #e89e44;	
+}
+
+.gk-button[data-style="style2"]:active,
+.gk-button[data-style="style2"]:focus,
+.gk-button[data-style="style2"]:hover {
+	background-color: #1078b9;
+}
+
+.gk-button[data-style="style3"] {
+	background-color: #fff;
+	color: #555!important;
+}
+
+.gk-button[data-style="style3"]:active,
+.gk-button[data-style="style3"]:focus,
+.gk-button[data-style="style3"]:hover {
+	background-color: #222;
+	color: #fff!important;
+}
+
+.gk-button[data-style="style4"] {
+	background-color: #222;
+	color: #fff;
+}
+
+.gk-button[data-style="style4"]:active,
+.gk-button[data-style="style4"]:focus,
+.gk-button[data-style="style4"]:hover {
+	background-color: #fff;
+	color: #555!important;
+}
+
+.gk-button[data-style="style5"] {
+	background-color: #fffef4;
+	color: #555!important;
+}
+
+.gk-button[data-style="style5"]:active,
+.gk-button[data-style="style5"]:focus,
+.gk-button[data-style="style5"]:hover {
+	background-color: #EAE8CC;
+	color: #555!important;
+}
+
+.gk-button[data-style="style6"] {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid #fff;
+	color: #555!important;
+}
+
+.gk-button[data-style="style6"]:active,
+.gk-button[data-style="style6"]:focus,
+.gk-button[data-style="style6"]:hover {
+	background-color: #fff;
+	color: #555!important;
+}
+
+/* Legends */
+.gk-legend {
+	border: 5px solid #fff;
+	margin: 32px 0;
+	padding: 10px 15px;
+	position: relative;
+}
+
+.gk-legend > strong:first-child {
+	background: #fff;
+	left: 20px;
+	padding: 0 5px;
+	position: absolute;
+	text-transform: uppercase;
+	top: -15px;
+}
+
+.gk-legend[data-style="style2"] {
+	border-color: #1078b9;
+}
+
+.gk-legend[data-style="style2"] > strong:first-child {
+	background: #1078b9;
+	color: #fff;
+}
+
+.gk-legend[data-style="style3"] {
+	border-color: #e89e44;
+}
+
+.gk-legend[data-style="style3"] > strong:first-child {
+	background: #e89e44;
+	color: #fff;
+}
+
+.gk-legend[data-style="style4"] {
+	border-color: #2f3336;
+}
+
+.gk-legend[data-style="style4"] > strong:first-child {
+	background: #2f3336;
+	color: #fff;
+}
+
+/* Columns */
+
+.gk-columns {
+	margin: 10px 0;
+	overflow: hidden;
+	width: 100%;	
+}
+
+.gk-columns > div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	padding: 0 12px;
+}
+
+.gk-columns > div:first-child {
+	padding-left: 0;
+}
+
+.gk-columns > div:last-child {
+	padding-right: 0;
+}
+
+.gk-columns[data-column-count="1"] > div {
+	padding: 0;
+	width: 100%;
+}
+
+.gk-columns[data-column-count="2"] > div {
+	width: 50%;
+}
+
+.gk-columns[data-column-count="3"] > div {
+	width: 33.3%;
+}
+
+.gk-columns[data-column-count="4"] > div {
+	width: 25%;
+}
+
+.gk-columns[data-column-count="5"] > div {
+	width: 20%;
+}
+
+.gk-columns[data-column-count="6"] > div {
+	width: 16.66%;
+}
+
+.gk-columns[data-column-count="7"] > div {
+	width: 14.28%;
+}
+
+.gk-columns[data-column-count="8"] > div {
+	width: 12.5%;
+}
+
+/* Raw text */
+.gk-raw {
+	background: #fafafa;
+	border: 1px solid #f0f0f0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #444;
+	margin: 10px 0;
+	padding: 10px 15px;
+	position: relative;
+}

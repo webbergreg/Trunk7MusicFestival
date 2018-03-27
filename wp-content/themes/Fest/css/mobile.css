@@ -1,0 +1,281 @@
+/**
+ *
+ * -------------------------------------------
+ * Mobile CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 11. Mobile code
+ *
+ *
+------------------------------------ */
+ 
+/* 11.1. Base elements
+==================================== */ 
+
+/* archive / page 404 */
+.page404 .widget,
+.archivepage .widget {
+	margin: 0!important;
+	width: 100%!important;
+}
+
+/* images fix */
+#gk-mainbody img {
+	height: auto!important;
+	max-width: 100%!important;
+}
+
+/* column rules */
+#gk-sidebar {
+	padding: 20px 0!important;
+}
+
+#gk-sidebar .box {
+	float: none!important;
+	width: 100%!important;
+}
+
+.widget-area .col1,
+.widget-area .col2,
+.widget-area .col3,
+.widget-area .col4,
+.widget-area .col5,
+.widget-area .col6,
+.widget-area .box.last1,
+.widget-area .box.last2,
+.widget-area .box.last3,
+.widget-area .box.last4,
+.widget-area .box.last5 { 
+	float: none!important;
+	margin: 0 auto 20px auto!important; 
+	max-width: 320px; 
+	width: 100%; 
+}
+
+.widget-area .nth1,
+.widget-area .nth2,
+.widget-area .nth3,
+.widget-area .nth4,
+.widget-area .nth5,
+.widget-area .nth6 {
+	clear: both;
+}
+
+.widget-area .col6.last5.nth4, 
+.widget-area .col6.last5.nth5 {
+	width: 100%;
+}
+
+#gk-sidebar .box:nth-child(odd) {
+	padding-right: 0px!important;	
+}
+#gk-sidebar .box:nth-child(even) {
+	padding-left: 0px!important;
+}
+
+gk-columns > div {
+	padding: 10px 0!important;
+	width: 100%!important;
+}
+
+/* 11.2. Posts
+==================================== */
+
+article.post, 
+article.page {
+	padding-left: 0!important;
+}
+
+h1 {
+	font-size: 24px!important;
+	line-height: 30px!important;
+}
+
+h2 {
+	font-size: 24px!important;
+	line-height: 30px!important;
+}
+
+.speakers-page header h1,
+.page-event header h1 {
+	font-size: 40px!important;
+}
+
+.speakers-page .gk-speaker {
+	width: 100%;
+}
+
+.gk-speaker header h1 {
+	clear: both;
+	padding-top: 20px;
+}
+
+.gk-floated {
+	max-width: 50%!important;
+}
+
+/* 11.3. Other elements
+==================================== */
+
+.cssLogo {
+	background-size: 100% auto!important; 
+	background-position: center center!important;
+	float: none!important;
+	margin: 0 auto!important;
+	max-width: 280px!important;
+}
+
+#gk-register {
+	clear: both;
+	float: none;
+	margin: 40px auto 0 auto;
+	text-align: center;
+}
+
+/* Header */
+.gk-animation .gk-guitar {
+	display: none!important;
+}
+
+.gk-animation h2 {
+	font-size: 20px!important;
+	line-height: 26px!important;
+}
+
+.gk-animation h1 {
+	font-size: 32px!important;
+	line-height: 36px!important;
+}
+
+.gk-jscounter > div > strong {
+	font-size: 28px!important;
+	line-height: 32px!important;
+}
+
+.gk-jscounter > div > small {
+	font-size: 12px!important;
+	line-height: 15px!important;
+}
+
+.gk-jscounter > div {
+	min-width: 58px!important;
+	padding: 0 5px!important;
+}
+
+.gk-jscounter > div::before {
+	content: ":";
+	font-size: 11px!important;
+}
+
+body .gk-animation .gk-ticket strong {
+	font-size: 18px!important;
+	font-weight: 700!important;
+	height: 35px;
+	line-height: 38px;
+	margin: 10px 0 10px 14px;
+	padding: 0 12px;
+}
+
+body .gk-animation .gk-ticket small {
+	display: none;
+}
+
+body .gk-animation .gk-ticket {
+	height: 56px;
+	width: 280px;
+}
+
+body .gka-bg {
+	background-position: center center!important;
+	height: 360px!important;
+	max-width: 100%;
+}
+
+.gk-animation.displayed .gk-animation-wrap {
+	height: 360px!important;
+}
+
+/* Speakers */
+.widget_gk_speakers .gkw-speakers-small-left, 
+.widget_gk_speakers .gkw-speakers-small-right {
+	float: none!important;
+	margin: 0 auto!important;
+	width: 265px!important;
+}
+
+/* Sponsors */
+.gk-sponsors-wrap > a, 
+.gk-sponsors > div > a {
+	width: 32%;
+}
+
+.gk-sponsors h2 {
+	font-size: 50px!important;
+	line-height: 64px!important;
+}
+
+/* Schedule */
+.gk-schedule dd > div {
+	margin-left: 0!important;
+	margin-top: 45px!important;
+}
+
+.gk-schedule dt {
+	font-size: 30px!important;
+}
+
+/* Author profile */
+.author-info > aside {
+	margin: 0 auto;
+	position: static;
+}
+
+.author-info > aside h3 {
+	margin: 0 auto;
+}
+
+.author-info .author-desc {
+	clear: both;
+	padding-left: 0!important;
+}
+
+/* NSP adjustments */
+.gk-nsp-arts-page .gk-nsp-art {
+	border-top: 1px solid #eee!important;
+	border-left: none!important;
+	padding-bottom: 20px!important;
+	padding-top: 20px!important;
+	width: 100%!important;
+}
+.gk-nsp-arts-page .gk-nsp-art:first-child {
+	border-top: none!important;
+}
+
+/* suffix mobilelayout */
+.mobile_layout .gk-nsp-content-wrap {
+	clear: both;
+	padding-top: 10px;
+}
+
+/* 11.4. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: none!important;
+}
+
+.onlySmartphones {
+	display: block!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}

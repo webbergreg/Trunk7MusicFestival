@@ -1,0 +1,375 @@
+/**
+ *
+ * -------------------------------------------
+ * WP Extensions CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 8. Additional WP extensions styles
+ *
+ *
+------------------------------------ */
+
+/* 8.1. Archives widget
+==================================== */
+
+/* 8.2. Custom menu widget
+==================================== */
+
+/* 8.3. Pages widget
+==================================== */
+
+/* 8.4. RSS widget
+==================================== */
+
+.box h3.box-title .rsswidget {
+	clear: none;
+	float: left;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.box .rsswidget {
+	clear: both;
+	display: block;
+	font-size: 16px;
+}
+
+.box.widget_rss li {
+	background: transparent url('../images/separator_bg.png') repeat-x 0 top;
+	padding-top: 14px;
+}
+
+.box .rss-date {
+	clear: both;
+	display: block;
+	font-size: 11px;
+	font-style: italic;
+	margin-top: -10px;
+	text-align: right;
+}
+
+.box .rssSummary {
+	clear: both;
+	color: #888;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+/* 8.5. Text widget
+==================================== */
+
+#gk-header .box.widget_text {
+	padding: 0!important;
+}
+
+#gk-header .box.widget_text img {
+	height: auto;
+	max-width: 100%;
+}
+
+/* 8.6. Calendar widget
+==================================== */
+
+.box #wp-calendar {
+	background: #1078b9;
+	border: 1px solid #4794DC;
+	color: #fff;
+	font-size: 13px;
+}
+
+.box #wp-calendar caption {
+	background: #1078b9;
+	font-size: 15px;
+	padding: 3px 0;
+	text-transform: uppercase;
+}
+
+.box #wp-calendar th {
+	border: 1px solid #4794DC;
+}
+
+.box #wp-calendar td {
+	background: #1078B9;
+	border: 1px solid #4794DC;
+	min-width: 30px;
+	padding: 3px;
+	text-align: center;
+}
+
+.box #wp-calendar td a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.box #wp-calendar td#today {
+	background: #e89e44;
+	color: #fff;
+}
+
+
+/* 8.7. Links widget
+==================================== */
+
+.box ul.xoxo a {
+	display: inline-block;
+}
+
+.box ul.xoxo a img {
+	vertical-align: middle;
+}
+
+.box ul.xoxo li {
+	padding: 5px 0;
+}
+
+/* 8.8. Recent comments widget
+==================================== */
+
+/* 8.9. Search widget
+==================================== */
+ 
+.box #searchform label,
+.box #searchform #searchsubmit {
+	display: none;
+}
+
+.box #searchform .field {
+	width: 100%;
+}
+ 
+/* 8.10. Categories widget
+==================================== */
+
+/* 8.11. Meta widget
+==================================== */
+
+/* 8.12. Recent posts widget
+==================================== */
+
+/* 8.13. Tag cloud widget
+==================================== */
+
+.box .tagcloud a {
+	background: #e89e44;
+	color: #fff;
+	line-height: 1.2;
+	margin: 2px 8px 2px 0;
+	padding: 1px 8px;
+}
+
+.box .tagcloud a:active,
+.box .tagcloud a:focus,
+.box .tagcloud a:hover {
+	background: #1078B9;
+}
+
+.box.tags .tagcloud {
+	overflow: hidden;
+}
+
+.box.tags .tagcloud a {
+	background: transparent url('../images/style1/tags.png') no-repeat 0 0;
+	color: #fff !important;
+	display: block;
+	float: left;
+	font-size: 11px!important;
+	font-weight: bold;
+	height: 19px;
+	line-height: 19px;
+	margin: 2px 8px 2px 0;
+	padding: 0 8px 0 20px;
+	text-shadow: 1px 1px 0 #000;
+}
+
+.box.tags .tagcloud a:active,
+.box.tags .tagcloud a:focus,
+.box.tags .tagcloud a:hover {
+	background-position: 0 bottom;
+}
+
+/* 8.14. Common widget styles
+==================================== */
+
+/* Modules */
+.box {
+	margin-bottom: 48px;
+}
+
+.box ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+.box ul li {
+	line-height: 1.5;
+	padding: 5px 0;
+}
+
+.box ul ul {
+	margin: 0 0 0 20px;
+}
+
+.box-title {	
+	color: #2F3336;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 36px;
+	margin-bottom: 20px;
+	min-height: 36px;
+	text-transform: uppercase;
+}
+
+/* Suffix clear */
+.box.clear {
+	padding: 0!important;
+}
+
+/* Suffix advertisement */
+.box.advertisement .box-title {
+	border-bottom: 1px solid #ccc;
+	color: #888!important;
+	font-family: Arial,Verdana,sans-serif!important;
+	font-size: 10px!important;
+	font-weight: 300;
+	line-height: 16px;
+	margin: 0 0 10px 0;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+/* Suffix dark */
+.box.dark > div {
+	background: #000!important;
+	color: #999;
+	padding: 20px;
+}
+.box.dark .box-title {
+	background: transparent!important;
+}
+.box.dark h1,
+.box.dark h2,
+.box.dark h3,
+.box.dark h4,
+.box.dark h5,
+.box.dark h6 {
+	color: #fff;
+}
+.box.dark ul {
+	margin: 0;
+	padding: 0;
+}
+.box.dark ul li {
+	border-top: 1px solid #444;
+	line-height: 2.0!important;
+	position: relative;
+	padding: 4px 0;
+}
+.box.dark ul li:first-child {
+	border-top: none;
+}
+.box.dark a {
+	color: #fff;
+}
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover {
+	color: #e89e44;
+}
+.box.dark.menu a:active,
+.box.dark.menu a:focus,
+.box.dark.menu a:hover {
+	color: #fff;
+}
+.box.dark b,
+.box.dark strong {
+	color: #aaa;
+	font-weight: bold;
+}
+/* Suffix menu */
+.box.menu li {
+	font-weight: 600;
+	-webkit-transition: padding-left 200ms ease-out;
+	   -moz-transition: padding-left 200ms ease-out;
+	     -o-transition: padding-left 200ms ease-out;
+	        transition: padding-left 200ms ease-out;
+}
+.box.menu li:hover {
+	padding-left: 24px;
+	margin: 0 -20px;
+	background: #1078b9;
+}
+.box.menu li:hover {
+	background: #1078b9;
+	margin: 0 -20px;
+}
+.box.menu li:hover a {
+	padding-left: 24px;
+}
+.box.menu li a {
+	display: block;
+	padding: 4px 2px;
+	font-size: 15px;
+	text-transform: uppercase
+}
+.box.menu li a:hover {
+	color: #fff
+}
+.box.menu ul ul {
+	display: none;
+}
+
+/* Suffix color */
+.box.color > div {
+	background: #e89e44!important;
+	color: #faebd8;
+	padding: 20px;
+}
+.box.color .box-title {
+	background: transparent!important;
+}
+.box.color h1,
+.box.color h2,
+.box.color h3,
+.box.color h4,
+.box.color h5,
+.box.color h6 {
+	color: #fff;
+}
+.box.color ul {
+	margin: 0;
+	padding: 0;
+}
+.box.color ul li {
+	border-top: 1px solid #fabf66;
+	line-height: 2.0;
+	position: relative;
+	padding: 4px 0;
+}
+.box.color ul li:first-child {
+	border-top: none;
+}
+.box.color a {
+	color: #fff;
+}
+.box.color a:active,
+.box.color a:focus,
+.box.color a:hover {
+	color: #faebd8;
+}
+.box.color b,
+.box.color strong {
+	color: #fff;
+	font-weight: bold;
+}
+
+/* Suffix small */
+.box.small .box-title {
+	font-size: 20px;
+	line-height: 24px;
+	min-height: 24px;
+}

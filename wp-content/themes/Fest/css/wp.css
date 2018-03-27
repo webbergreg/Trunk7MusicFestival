@@ -1,0 +1,662 @@
+/**
+ *
+ * -------------------------------------------
+ * Template CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 5. Wordpress elements styling
+ *
+ *
+------------------------------------ */
+ 
+/* 5.1. Main menu
+==================================== */ 
+  
+#main-menu {
+	float: left;
+	height: 54px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 1000;
+}
+
+#main-menu > li {
+	border: none;
+	float: left;
+	font-size: 18px;
+	font-weight: 600;
+	min-height: 54px;
+	line-height: 55px;
+	margin: 0;
+}
+
+#main-menu > li:first-child > a {
+	padding-left: 0!important;
+}
+
+#main-menu > li > a {
+	color: #626262;
+	display: block;
+	height: 54px;
+	line-height: 55px;
+	margin: 0;
+	padding: 0 12px;
+	text-transform: uppercase!important;
+}
+
+#main-menu > li > a:hover,
+#main-menu > li.current-menu-item,
+#main-menu > li.current_page_item,
+#main-menu > li:hover,
+#main-menu > li.active > a,
+#main-menu > li.current-menu-item > a,
+#main-menu > li.current_page_item > a,
+#main-menu > li.current-menu-ancestor > a, 
+#main-menu > li.current-menu-parent > a  {
+	color: #fff;
+}
+
+/* Submenu */
+#main-menu .sub-menu {
+	background: transparent url('../images/style1/menu_level1.png') no-repeat left top;
+	left: -9999px;
+	padding: 10px 0 0 0;
+	position: absolute;
+	z-index: 10;
+}
+
+#main-menu .sub-menu .sub-menu {
+	background: transparent url('../images/style1/menu_level2.png') no-repeat left top;
+	margin-left: 130px;
+	margin-top: -50px;
+	padding: 0 0 0 10px;
+}
+#main-menu .sub-menu .sub-menu .sub-menu {
+	background: transparent url('../images/style1/menu_level3.png') no-repeat left top;
+	padding: 0 0 0 10px;
+}
+
+#main-menu .sub-menu ul {
+	background: #0f78b9;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	margin-top: -3px;
+	padding: 10px 0;
+	text-align: left;
+	width: 200px;
+}
+
+#main-menu .sub-menu .sub-menu ul {
+	background: #1a88cd;
+}
+
+#main-menu .sub-menu .sub-menu .sub-menu ul {
+	background: #2b9ce3;
+}
+
+#main-menu li:hover .sub-menu {
+	left: auto;
+}
+
+#main-menu .sub-menu li {
+	margin: 0 30px;
+}
+
+#main-menu .sub-menu li:first-child {
+	border-top: none;
+}
+
+#main-menu .sub-menu li a {
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	min-height: 30px;
+	padding: 3px 0;
+}
+
+#main-menu .sub-menu li:hover > a,
+#main-menu .sub-menu li > a:active,
+#main-menu .sub-menu li > a:focus,
+#main-menu .sub-menu li > a:hover {
+	color: #fff;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+#main-menu .sub-menu li:hover .sub-menu {
+	left: auto!important;
+}
+ 
+/* 5.2. Comments
+==================================== */
+
+#comments {
+	background: rgba(255, 255, 255, 0.6);
+	padding: 30px;
+}
+
+#comments > h2:first-child {
+	color: #2F3336;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 36px;
+	margin-bottom: 20px;
+	min-height: 36px;
+	text-transform: uppercase;
+}
+
+#comments > nav {
+	margin: 12px 0;
+	overflow: hidden;
+}
+
+#comments > nav .nav-prev {
+	float: left;
+}
+
+#comments > nav .nav-next {
+	float: right;
+}
+
+#comments > ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+#comments ol.children {
+	list-style-type: none;
+	margin-left: 5%;
+	padding: 0;
+}
+
+#comments li article {
+	clear: both;	
+	margin: 20px 0 30px 0;
+	position: relative;
+}
+
+#comments li article > aside {
+	background: url('../images/style1/avatar_bg.png') no-repeat 50% 50%;	
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+	        border-radius: 50%;
+	display: block;
+	float: left;
+	line-height: 1;
+	margin:  0 16px 0 0;
+	padding: 6px;
+}
+
+#comments li article > aside img {
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+	        border-radius: 50%;
+	display: block;
+}
+
+#comments li article > .content {
+	background: #fff;
+	clear: none;
+	margin: 16px 0 0 0;
+	padding: 12px 24px;
+}
+
+#comments article .author {
+	color: #2F3336;
+	display: block;
+	float: none;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+
+#comments article .author a {
+	color: #2f3336;
+}
+
+#comments article .author a:active,
+#comments article .author a:focus,
+#comments article .author a:hover {
+	color: #E89E44;
+}
+
+#comments article .content > * {
+	color: #888;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+#comments article .content footer {
+	border-top: 1px solid #EEE;
+	color: #999;
+	display: block;
+	font-size: 11px;
+	margin: 9px 0 0;
+	padding: 6px 0 0;
+	text-align: right;
+}
+
+#comments article footer a {
+	color: #E89E44;
+	float: right;
+	font-weight: normal;
+	margin-left: 16px;
+}
+
+#comments article footer a:active,
+#comments article footer a:focus,
+#comments article footer a:hover {
+	color: #2F3336;
+}
+
+#comments em.awaiting-moderation {
+	color: #a33;
+	display: block;
+	font-size: 14px;
+	margin: 0 0 12px 0;
+	text-align: center;
+}
+/* Special comments classes */
+#comments li.bypostauthor > article {
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+}
+
+#comments li.bypostauthor article .content {
+	border: none!important;
+}
+
+#comments li.bypostauthor article aside {
+	left: 2%;
+}
+
+#comments li.byuser article {}
+#comments li.odd article {}
+#comments li.even article {}
+
+/* Comments typography */
+#comments li article abbr[title],
+#comments li article acronym[title] {
+	border-bottom: 1px dotted;
+}
+
+#comments li article code {
+	background: #fafafa;
+	border-left: 4px solid #eee;
+	display: block;
+	margin: 10px 0;
+	padding: 10px 20px; 
+	white-space: pre;
+}
+
+#comments li article blockquote {
+	background: #fafafa;
+	border: 2px solid #eee;
+	border-left: none;
+	border-right: none;
+	display: block;
+	margin: 10px 0;
+	padding: 10px; 
+	position: relative;
+}
+
+#comments li article blockquote p {
+	margin: 0;
+}
+
+#comments li article q {
+	color: #888;
+	font-weight: bold;
+}
+
+#comments li article strike {
+	text-decoration: line-through;
+}
+
+#comments li article del {
+	color: #aaa;
+	text-decoration: line-through;
+}
+
+/* Comment form */
+#respond {
+	padding: 12px 0;
+}
+
+#respond > h3 {
+	color: #2F3336;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 36px;
+	margin-bottom: 20px;
+	min-height: 36px;
+	text-transform: uppercase;
+}
+
+#respond p.comment-notes,
+#respond p.logged-in-as,
+#respond p.form-allowed-tags {
+	font-size: 10px;
+	font-style: italic;
+	color: #999;
+}
+
+#respond input,
+#respond textarea {
+	display: block;
+}
+
+#respond input[type="checkbox"] {
+	display: inline-block;
+}
+
+#respond input[type="text"],
+#respond input[type="password"],
+#respond textarea {
+	width: 100%;
+}
+
+#respond #reply-title small {
+	float: right;
+	font-size: 14px;
+	text-transform: none;
+}
+
+/* 5.3. Post meta-data
+==================================== */
+
+.content > form input[type="submit"] {
+	display: inline-block;
+	float: none;
+}
+
+article header {
+	position: relative;
+}
+
+article header h1,
+article header h2 {
+	color: #2F3336;
+	font-size: 56px;
+	line-height: 56px;
+	margin: 0!important;
+	text-transform: uppercase;
+}
+
+article header h1 a,
+article header h2 a {
+	color: #2f3336;
+}
+
+article header h1 a:active,
+article header h1 a:focus,
+article header h1 a:hover,
+article header h2 a:active,
+article header h2 a:focus,
+article header h2 a:hover {
+	color: #1078B9;
+}
+
+article.no-title + section#comments,
+article.page-fullwidth + section#comments {
+	margin-left: 0;
+}
+
+article > footer {
+	background: transparent url('../images/separator_bg.png') repeat-x 0 top;
+	margin-top: 24px;
+	padding: 16px 0;
+}
+
+article > footer.only-author {
+	background: none!important;
+}
+
+article > footer::after,
+#respond p.form-submit:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+article > .content,
+article > .summary {
+	clear: both;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+aside.meta {
+	color: #999;
+}
+
+aside.meta .date {
+	display: none;
+}
+
+aside.meta dl {
+	margin: 12px 0 8px;
+	overflow: hidden;
+	padding: 8px 0;
+}
+
+aside.meta a {
+	color: #2f3336;
+}
+
+aside.meta a:active,
+aside.meta a:focus,
+aside.meta a:hover {
+	color: #1078B9;
+}
+
+aside.meta dt,
+aside.meta dd {
+	display: block;
+	float: left;
+	font-size: 13px;
+	line-height: 17px;
+}
+
+aside.meta dd {
+	margin: 0 5px 12px 0;
+}
+
+aside.meta dd + dd {
+	margin-left: 5px;
+}
+
+aside.meta dd::after {
+	content: " | ";
+}
+
+article header time {
+	background: #1078B9;
+	color: white;
+	float: left;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1;
+	margin: 0 0 0 -148px;
+	padding: 6px 4px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+}
+
+article header time a {
+	color: #fff;
+}
+
+article header time a:active,
+article header time a:focus,
+article header time a:hover {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+#gk-social-api {
+	clear: both;
+	margin: 10px 0;
+	padding: 0 0 20px 0;
+}
+
+#gk-social-api > * {
+	display: block;
+	float: left!important;
+	min-height: 33px;
+	margin-right: 5px!important;
+}
+
+#gk-social-api > a {	
+	min-height: inherit!important;
+}
+
+article footer dl.tags {
+	overflow: hidden;
+}
+
+article footer dl.tags dt {
+	float: left;
+	font-size: 14px;
+	line-height: 23px;
+	margin-right: 15px;
+}
+
+article footer dl.tags dd {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+article footer dl.tags dd a {
+	background: transparent url('../images/style1/tags.png') no-repeat 0 0;
+	color: #fff !important;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	height: 19px;
+	line-height: 19px;
+	margin: 2px 8px 2px 0;
+	padding: 0 8px 0 20px;
+	text-shadow: 1px 1px 0 #000;
+}
+
+article footer dl.tags dd a:active,
+article footer dl.tags dd a:focus,
+article footer dl.tags dd a:hover {
+	background-position: 0 bottom;
+}
+
+/* 5.4. Post additional features
+==================================== */
+
+article header h1 sup,
+article.sticky header h1 sup,
+article header h2 sup,
+article.sticky header h2 sup {
+	font-size: 12px;
+	font-weight: 600;
+	top: -1.5em;
+	color: #1078B9;
+	padding: 2px 6px;
+}
+
+article figure.featured-image img {
+	display: block;
+	height: auto;
+	margin: 15px auto 30px auto;
+	max-width: 100%;
+}
+
+article figure.featured-image img + figcaption {
+	font-size: 12px;
+	margin: -30px 0 15px 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.alignnone {
+	float: none;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+.aligncenter {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+
+div.wp-caption {
+	max-width: 100%!important;
+}
+
+.wp-caption-text {
+	font-size: 11px;
+	font-style: italic;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.gallery {
+	clear: both;
+	padding: 16px 0;
+}
+
+.gallery-caption {
+	font-size: 14px;
+}
+
+/* 5.5. wp-activate.php and wp-signup.php pages
+==================================== */
+
+/* wp-activate.php */
+
+#activateform {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+#activateform #key,
+#activateform #submit {
+	font-size: inherit!important;
+}
+
+.widecolumn h2 {
+    padding-left: 40px;
+}
+
+/* wp-signup.php */
+.mu_register {
+	margin: 20px auto!important;
+	max-width: 500px;
+}
+
+.mu_register input[type="submit"], 
+.mu_register #blog_title, 
+.mu_register #user_email, 
+.mu_register #blogname, 
+.mu_register #user_name {
+	font-size: inherit!important;	
+}
+
+.mu_register label {
+	font-size: inherit!important;
+}

@@ -1,0 +1,18 @@
+{
+	"template": {
+		"name": "Fest",
+		"update_name": "gk_fest_wp",
+		"date": "09/09/2014",
+		"version": "1.7",
+		"description": "Event Premium WordPress Theme based on the GavernWP framework"
+	},
+	"developer_config": {
+		"visibility": {
+			"template_options": true,
+			"importexport": true,
+			"updates": true,
+			"documentation": true,
+			"gavickpro_website": true
+		}
+	}
+}

@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="fest_seo_description" />
+        <key name="fest_seo_blogname" />
+        <key name="fest_seo_homepage_desc_value" />
+        <key name="fest_seo_homepage_keywords_value" />
+        <key name="fest_template_footer_content" />
+    </admin-texts>   
+</wpml-config>

@@ -1,0 +1,35 @@
+[
+	
+	{
+		"name": "Dark",
+		"css_class": "dark",
+		"exclude": "tag_cloud,widget_gk_nsp,widget_gk_speakers,widget_gk_comments"
+	},
+	{
+		"name": "Color",
+		"css_class": "color",
+		"exclude": "tag_cloud,widget_gk_nsp,widget_gk_speakers,widget_gk_comments"
+	},
+	{
+		"name": "Small title",
+		"css_class": "small"
+	},
+	{
+		"name": "Advertisement",
+		"css_class": "advertisement"
+	},
+	{
+		"name": "Clear",
+		"css_class": "clear"
+	},
+	{
+		"name": "Unified style",
+		"css_class": "tags",
+		"for_only": "tag_cloud"
+	},
+	{
+		"name": "Menu",
+		"css_class": "dark menu",
+		"for_only": "nav_menu"
+	}
+]

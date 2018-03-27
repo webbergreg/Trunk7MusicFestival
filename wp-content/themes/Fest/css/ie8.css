@@ -1,0 +1,70 @@
+/**
+ *
+ * -------------------------------------------
+ * IE code fixes
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 12. IE
+ *
+ *
+------------------------------------ */
+
+/* 12.1. IE8
+==================================== */
+
+.author-avatar img,
+img.avatar {
+	max-width: none!important;
+	width: auto!important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="www"],
+input[type="tel"] {
+	line-height: 1.2!important;
+}
+
+#gk-page-top {
+	background: #000!important;
+	position: relative;
+}
+
+#gk-sponsors {
+	overflow: hidden;
+}
+
+.gk-page-wrap {
+	zoom: 1;
+}
+
+.widget-area {
+	clear: both;
+	overflow: hidden;
+}
+
+#gk-breadcrumbs {
+	background: #fff;
+}
+
+#gk-header-top {
+	clear: both;
+	margin: 0!important;
+	overflow: hidden;
+	padding: 58px 0 60px 0!important;
+}
+
+.ie-clear {
+	clear: both;
+}
+
+/* image logo fix */
+.imageLogo img {
+	max-width: auto!important;
+	width: auto!important;
+}
